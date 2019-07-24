@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(247, 120, 57);
+    border-bottom: 0.5px solid rgba(51, 51, 51, 0.164);
+}
+.navbar .nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+}
+.navbar .nav .nav-item {
+    width: 100%;
+    margin: 2px;
+    background-color: black;
+}
+.logo {
+    justify-content: flex-start;
+    width: 45px;
+    height: 100%;
+    margin: 0px;
+}
+.logo .icon {
+    font-size: 45px;
+    margin: auto;
+    color: #3A4C71;
+}
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.pesquisa .div-search {
+    display: flex;
+    width: 79%;
+    height: 100%;
+}
+.pesquisa .div-search .input {
+    width: 100%;
+    height: 35px;
+    margin-top: 4px;
+    border: 0;
+    border-radius: 8px;
+}
+.pesquisa .div-search .input[active] {
+    border: 0px;
+}
+.pesquisa .div-icone {
+    width: 19%;
+    height: 100%;
+}
+.pesquisa .div-icone .search {
+    justify-content: center;
+    font-size: 35px;
+    margin: 4px;
+    color: rgb(246, 248, 250);
+    margin-left: 12px;
+}
